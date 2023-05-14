@@ -1,0 +1,30 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 40,
+        "width": 40
+    },
+    "display": "reCaptcha v3",
+    "events": {
+        "AAY": {
+            "caption": "Token retrieved",
+            "name": "token_retrieved"
+        }
+    },
+    "icon": "ion-android-refresh",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "AAX": {
+            "caption": "Token",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "token",
+            "value": "text"
+        }
+    }
+}

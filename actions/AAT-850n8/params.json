@@ -1,0 +1,29 @@
+{
+    "category": "plugins",
+    "display": "Verify reCaptcha token",
+    "fields": {
+        "AAU": {
+            "caption": "Token",
+            "editor": "DynamicValue",
+            "name": "token",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAW": {
+            "caption": "Valid",
+            "name": "valid",
+            "rank": 0,
+            "value": "boolean"
+        },
+        "AAZ": {
+            "caption": "Response JSON",
+            "name": "response",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

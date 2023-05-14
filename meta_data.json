@@ -1,0 +1,16 @@
+{
+    "categories": {
+        "0": "compliance",
+        "1": "technical",
+        "2": "analytics",
+        "3": "containers",
+        "4": "web scraping"
+    },
+    "description": "reCAPTCHA v3 is a free service from Google that protects your site from spam and abuse. It uses advanced risk analysis techniques to tell humans and bots apart.",
+    "image": "//meta-l.cdn.bubble.io/f1684060117978x854138349993859100/reCaptcha-transparent.png",
+    "license": "open_source",
+    "link": "https://developers.google.com/recaptcha",
+    "name": "Invisible reCaptcha v3",
+    "plugin_instructions": "1. Go to the Google reCaptcha service page with your Google account.\n\n2. Create the app by filling the form. You MUST select the reCAPTCHA v3, not v2.\n\n3. Once submitted, Google will provide you with the following two information.\n\n- Site key\n- Secret key\n\n4. Set these two keys in the plugin settings.\n\n5. Place the \"reCaptcha v3\" element on the pages where you want to protect.\n\n6. Now you can run the \"Verify reCaptcha token\" action on the event \"reCaptchav3 A Token retrieved\", or whenever you want to verify the reCaptcha.",
+    "sa_node_version": 14
+}
